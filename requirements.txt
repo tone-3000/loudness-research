@@ -1,0 +1,11 @@
+# Analysis only (results/*.csv.gz are committed; no models needed):
+numpy
+pandas
+scipy
+matplotlib
+soundfile>=0.12   # MP3 output for the listening test needs libsndfile >= 1.1
+
+# Re-running the experiment / listening test (renders models):
+torch
+neural-amp-modeler>=0.12   # nam.models.init_from_nam (A2 .nam files)
+mosqito>=1.2               # ISO 532-1 Zwicker time-varying loudness

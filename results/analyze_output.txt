@@ -1,0 +1,212 @@
+models=261  candidates=206 stimuli × measures -> 1048 candidates
+
+== N5_realistic: oracle sd_uniform=2.82; current: sd_uniform=6.14 sd_native=5.83 sd_max=9.65 (rank 1007/1048)
+   beyond-a-scalar simulation (curve metadata + engine knows the input level):
+                stim    measure  sd_uniform  sd_native   sd_max
+ip1k|sweep7_-45_-9@0    K_curve    1.819495   1.747086 1.929653
+ip1k|sweep7_-45_-9@0 flat_curve    2.371084   2.282928 2.415503
+ip2k|sweep7_-45_-9@0    K_curve    1.815409   1.730751 1.885468
+ip2k|sweep7_-45_-9@0 flat_curve    2.166018   2.076523 2.330972
+inst|sweep7_-45_-9@0    K_curve    1.754654   1.711605 1.832588
+inst|sweep7_-45_-9@0 flat_curve    2.280662   2.237622 2.311637
+ rank                               id  sd_uniform  sd_native   sd_max  gear_offset_range  inst_offset
+    1    ip2k|sweep7_-45_-9@0/K_meandb    3.340298   1.567500 4.758896           1.603932    -0.605848
+    2    inst|sweep7_-45_-9@0/K_meandb    3.355552   1.623084 4.483450           1.929230    -0.209772
+    3   inst|steady@avg(-36,-24,-12)/A    3.381674   1.614004 4.855436           1.289607    -0.157296
+    4   inst|sweep7_-39_-15@0/K_meandb    3.382564   1.542659 4.632600           1.663849     0.065546
+    5    inst|sweep7_-45_-9@0/A_meandb    3.388956   1.720030 4.506881           1.595262     0.499495
+    6      inst|steady@avg(-36..-12)/A    3.398376   1.605762 4.911104           1.286202    -0.071374
+    7 ip2k|sweep7_-45_-9@0/hp80_meandb    3.398723   1.712462 5.100692           1.698596    -0.815464
+    8      inst|steady@avg(-39..-15)/K    3.398781   1.566708 4.552593           1.766680     0.116415
+    9   inst|sweep5_-36_-12@0/A_meandb    3.404219   1.626778 5.008390           1.236965    -0.162420
+   10   inst|sweep7_-39_-15@0/A_meandb    3.404962   1.617813 4.522537           1.674370     0.788150
+   11    ip1k|sweep7_-45_-9@0/K_meandb    3.408684   1.726992 4.520087           1.904330    -0.163100
+   12   ip2k|sweep7_-39_-15@0/K_meandb    3.414180   1.581637 4.953807           1.642206    -0.352389
+   13      ip2k|steady@avg(-39..-15)/K    3.414496   1.571570 4.874201           1.698762    -0.307620
+   14   ip1k|steady@avg(-36,-24,-12)/A    3.422529   1.698087 4.842666           1.394198     0.063794
+   15   ip1k|sweep7_-39_-15@0/K_meandb    3.423872   1.630727 4.656498           1.643282     0.103033
+
+== LLeq_realistic: oracle sd_uniform=2.86; current: sd_uniform=6.88 sd_native=6.65 sd_max=10.53 (rank 1006/1048)
+   beyond-a-scalar simulation (curve metadata + engine knows the input level):
+                stim    measure  sd_uniform  sd_native   sd_max
+ip1k|sweep7_-45_-9@0    K_curve    2.196073   2.146986 2.240930
+ip1k|sweep7_-45_-9@0 flat_curve    2.866620   2.802207 2.945831
+ip2k|sweep7_-45_-9@0    K_curve    2.412342   2.365467 2.456273
+ip2k|sweep7_-45_-9@0 flat_curve    2.832673   2.778981 2.944977
+inst|sweep7_-45_-9@0    K_curve    2.161231   2.126979 2.203489
+inst|sweep7_-45_-9@0 flat_curve    2.790962   2.763033 2.851820
+ rank                              id  sd_uniform  sd_native   sd_max  gear_offset_range  inst_offset
+    1   inst|sweep7_-45_-9@0/A_meandb    3.461627   1.727417 4.869935           1.326094    -0.242843
+    2   ip1k|sweep7_-45_-9@0/A_meandb    3.488410   1.783016 4.843295           1.380717     0.009532
+    3   inst|sweep7_-45_-9@0/K_meandb    3.518672   1.888710 5.397992           2.038889    -0.952110
+    4     inst|steady@avg(-39..-15)/A    3.523317   1.705107 4.915863           1.492269     0.167542
+    5  ip500|sweep7_-45_-9@0/A_meandb    3.523449   1.867048 4.472567           1.548347     0.834113
+    6  inst|sweep7_-39_-15@0/A_meandb    3.526244   1.727271 5.037620           1.391079     0.045812
+    7     ip1k|steady@avg(-39..-15)/A    3.534635   1.738695 4.881933           1.547430     0.399079
+    8  ip1k|sweep7_-39_-15@0/A_meandb    3.538535   1.759581 4.997642           1.489403     0.296252
+    9 ip500|sweep7_-39_-15@0/A_meandb    3.552373   1.803080 4.515043           1.683997     1.120637
+   10   ip1k|sweep7_-45_-9@0/K_meandb    3.556290   1.959520 5.417468           2.013989    -0.905438
+   11 ip500|steady@avg(-36,-24,-12)/A    3.558858   1.876962 5.100646           1.793505     0.165501
+   12    ip500|steady@avg(-39..-15)/A    3.568283   1.838809 4.660395           1.737547     1.230686
+   13    ip500|steady@avg(-36..-12)/A    3.574735   1.869889 5.144609           1.726138     0.255775
+   14                inst|pluck@-30/K    3.576196   1.700354 4.641556           1.693355     0.526698
+   15 ip500|sweep5_-36_-12@0/A_meandb    3.587535   1.902120 5.267407           1.760622     0.144478
+
+== LUFS_realistic: oracle sd_uniform=2.57; current: sd_uniform=5.69 sd_native=5.46 sd_max=9.28 (rank 985/1048)
+   beyond-a-scalar simulation (curve metadata + engine knows the input level):
+                stim    measure  sd_uniform  sd_native   sd_max
+ip1k|sweep7_-45_-9@0    K_curve    1.451924   1.391621 1.500640
+ip1k|sweep7_-45_-9@0 flat_curve    1.528975   1.493596 1.607062
+ip2k|sweep7_-45_-9@0    K_curve    2.082340   1.990742 2.247815
+ip2k|sweep7_-45_-9@0 flat_curve    1.804243   1.721748 1.906284
+inst|sweep7_-45_-9@0    K_curve    1.488057   1.416221 1.547298
+inst|sweep7_-45_-9@0 flat_curve    1.479076   1.454183 1.547238
+ rank                                id  sd_uniform  sd_native   sd_max  gear_offset_range  inst_offset
+    1  inst|sweep7_-45_-9@0/flat_meandb    2.982578   1.438483 4.645599           2.400451    -0.005851
+    2   ip500|sweep7_-39_-15@0/K_meandb    2.984177   1.356658 4.417495           2.338984     0.724947
+    3    inst|steady@avg(-39..-15)/flat    2.984351   1.293583 4.755422           2.497970     0.290397
+    4      ip500|steady@avg(-39..-15)/K    2.985883   1.364456 4.497635           2.285523     0.726270
+    5 inst|sweep7_-39_-15@0/flat_meandb    3.001701   1.341505 4.845919           2.651540     0.253624
+    6       ip1k|steady@avg(-39..-15)/K    3.002487   1.359570 4.439842           1.742523     0.859367
+    7  inst|sweep7_-45_-9@0/hp80_meandb    3.004852   1.467923 4.550108           2.351428     0.278174
+    8    inst|steady@avg(-39..-15)/hp80    3.007784   1.327099 4.654989           2.343984     0.578809
+    9    ip1k|steady@avg(-39..-15)/flat    3.014055   1.362980 4.810022           2.747196     0.216711
+   10    ip1k|sweep7_-39_-15@0/K_meandb    3.014346   1.379407 4.366055           1.767325     0.837992
+   11  ip1k|sweep7_-45_-9@0/flat_meandb    3.017234   1.510489 4.692118           2.630857    -0.044620
+   12   ip500|sweep7_-33_-21@0/K_energy    3.017393   1.326667 4.880547           2.955414     0.438575
+   13     ip1k|sweep7_-45_-9@0/K_meandb    3.017702   1.526121 4.375996           1.737249     0.577008
+   14    ip500|sweep7_-45_-9@0/K_meandb    3.019181   1.560456 4.427213           2.372219     0.480679
+   15                 ip500|pluck@-27/K    3.021012   1.322598 4.531757           2.271438     0.956161
+
+== K_realistic: oracle sd_uniform=2.58; current: sd_uniform=5.74 sd_native=5.52 sd_max=9.34 (rank 986/1048)
+   beyond-a-scalar simulation (curve metadata + engine knows the input level):
+                stim    measure  sd_uniform  sd_native   sd_max
+ip1k|sweep7_-45_-9@0    K_curve    1.449641   1.387467 1.498255
+ip1k|sweep7_-45_-9@0 flat_curve    1.537466   1.497113 1.621086
+ip2k|sweep7_-45_-9@0    K_curve    2.084015   1.991358 2.253490
+ip2k|sweep7_-45_-9@0 flat_curve    1.809662   1.723802 1.912510
+inst|sweep7_-45_-9@0    K_curve    1.486190   1.413149 1.545570
+inst|sweep7_-45_-9@0 flat_curve    1.483535   1.455980 1.554627
+ rank                                id  sd_uniform  sd_native   sd_max  gear_offset_range  inst_offset
+    1  inst|sweep7_-45_-9@0/flat_meandb    2.989279   1.440044 4.673823           2.398365    -0.056681
+    2    inst|steady@avg(-39..-15)/flat    2.991952   1.297696 4.781797           2.495884     0.241821
+    3   ip500|sweep7_-39_-15@0/K_meandb    2.993318   1.359349 4.408731           2.327033     0.663681
+    4      ip500|steady@avg(-39..-15)/K    2.995873   1.367919 4.488324           2.273572     0.663955
+    5       ip1k|steady@avg(-39..-15)/K    3.007152   1.352954 4.440304           1.730573     0.824922
+    6  inst|sweep7_-45_-9@0/hp80_meandb    3.007215   1.458763 4.567562           2.339478     0.251235
+    7 inst|sweep7_-39_-15@0/flat_meandb    3.008483   1.344320 4.870566           2.649454     0.207491
+    8    inst|steady@avg(-39..-15)/hp80    3.011729   1.320978 4.671360           2.332034     0.554145
+    9    ip1k|sweep7_-39_-15@0/K_meandb    3.018518   1.372323 4.367713           1.755375     0.805865
+   10     ip1k|sweep7_-45_-9@0/K_meandb    3.021207   1.517300 4.374794           1.725299     0.539732
+   11    ip1k|steady@avg(-39..-15)/flat    3.024628   1.374374 4.842545           2.745110     0.153753
+   12     inst|sweep7_-45_-9@0/K_meandb    3.025963   1.511053 4.394756           1.403183     0.493060
+   13       inst|steady@avg(-39..-15)/K    3.027375   1.375357 4.481974           1.375726     0.819247
+   14  ip1k|sweep7_-45_-9@0/flat_meandb    3.027376   1.519680 4.727050           2.628771    -0.110462
+   15    ip500|sweep7_-45_-9@0/K_meandb    3.028925   1.562825 4.416465           2.376603     0.413650
+
+== LUFS_raw: oracle sd_uniform=2.57; current: sd_uniform=6.02 sd_native=5.83 sd_max=9.61 (rank 1003/1048)
+   beyond-a-scalar simulation (curve metadata + engine knows the input level):
+                stim    measure  sd_uniform  sd_native   sd_max
+ip1k|sweep7_-45_-9@0    K_curve    0.931760   0.825257 0.994599
+ip1k|sweep7_-45_-9@0 flat_curve    1.228987   1.170883 1.352784
+ip2k|sweep7_-45_-9@0    K_curve    1.948579   1.860779 2.065073
+ip2k|sweep7_-45_-9@0 flat_curve    1.676580   1.602503 1.762522
+inst|sweep7_-45_-9@0    K_curve    1.011840   0.898517 1.081221
+inst|sweep7_-45_-9@0 flat_curve    1.147638   1.107583 1.277948
+ rank                                id  sd_uniform  sd_native   sd_max  gear_offset_range  inst_offset
+    1   ip500|sweep7_-39_-15@0/K_meandb    2.697762   0.786981 4.352291           0.899650    -0.027330
+    2      ip500|steady@avg(-39..-15)/K    2.704571   0.795154 4.277222           0.846189    -0.026007
+    3       ip1k|steady@avg(-39..-15)/K    2.717318   0.795878 4.382177           0.795567     0.107089
+    4                 ip500|pluck@-27/K    2.718867   0.690377 4.391069           0.832105     0.203884
+    5    inst|steady@avg(-39..-15)/hp80    2.729589   0.848089 4.783825           0.951440    -0.173469
+    6   ip500|sweep7_-33_-21@0/K_meandb    2.730219   0.720366 4.476641           0.950752     0.164603
+    7    ip1k_o4|steady@avg(-39..-15)/K    2.732626   0.851549 4.384645           0.941859     0.252747
+    8      ip500|steady@avg(-33..-21)/K    2.734328   0.739694 4.387407           0.832724     0.136840
+    9    ip1k|sweep7_-39_-15@0/K_meandb    2.735146   0.849912 4.468061           0.757406     0.085714
+   10    inst|steady@avg(-39..-15)/flat    2.742655   0.916708 4.903636           1.058637    -0.461881
+   11 ip1k_o4|sweep7_-39_-15@0/K_meandb    2.747872   0.895885 4.460771           0.961580     0.243713
+   12       inst|steady@avg(-39..-15)/K    2.750892   0.853298 4.388914           0.719328     0.087822
+   13 inst|sweep7_-39_-15@0/hp80_meandb    2.755636   0.942556 4.885340           0.962013    -0.217376
+   14    ip1k|steady@avg(-39..-15)/hp80    2.757261   0.923627 4.791962           1.146739    -0.142705
+   15   ip500|sweep7_-33_-21@0/K_energy    2.759306   0.933733 5.018900           1.516081    -0.313702
+
+== N5_raw: oracle sd_uniform=2.79; current: sd_uniform=6.23 sd_native=5.96 sd_max=9.78 (rank 1003/1048)
+   beyond-a-scalar simulation (curve metadata + engine knows the input level):
+                stim    measure  sd_uniform  sd_native   sd_max
+ip1k|sweep7_-45_-9@0    K_curve    1.990708   1.927695 2.089836
+ip1k|sweep7_-45_-9@0 flat_curve    2.668691   2.596329 2.706555
+ip2k|sweep7_-45_-9@0    K_curve    1.822360   1.752428 1.937579
+ip2k|sweep7_-45_-9@0 flat_curve    2.365977   2.296838 2.541912
+inst|sweep7_-45_-9@0    K_curve    1.894346   1.857191 1.954751
+inst|sweep7_-45_-9@0 flat_curve    2.567878   2.537983 2.594271
+ rank                             id  sd_uniform  sd_native   sd_max  gear_offset_range  inst_offset
+    1  inst|sweep7_-45_-9@0/A_meandb    3.247832   1.485338 4.213909           1.257903     0.423506
+    2 inst|sweep7_-39_-15@0/A_meandb    3.269827   1.391670 4.234945           1.371870     0.712161
+    3  ip2k|sweep7_-45_-9@0/K_meandb    3.281313   1.522909 4.899385           1.363878    -0.681837
+    4    inst|steady@avg(-39..-15)/A    3.284844   1.426240 4.373792           1.413845     0.833891
+    5 inst|steady@avg(-36,-24,-12)/A    3.290750   1.516613 4.975798           1.203254    -0.233285
+    6    inst|steady@avg(-36..-12)/A    3.310817   1.515745 5.032110           1.188110    -0.147363
+    7  ip1k|sweep7_-45_-9@0/A_meandb    3.325099   1.637063 4.282897           1.506196     0.675881
+    8 inst|sweep5_-36_-12@0/A_meandb    3.325394   1.558739 5.132700           1.205649    -0.238408
+    9 ip1k|sweep7_-39_-15@0/A_meandb    3.334873   1.528772 4.298347           1.545315     0.962601
+   10               inst|pluck@-27/A    3.340138   1.434376 4.375996           1.445214     1.015497
+   11 inst|sweep7_-33_-21@0/A_energy    3.347797   1.453668 4.879946           1.128769     0.384410
+   12 inst|sweep7_-33_-21@0/A_meandb    3.347938   1.438594 4.312757           1.607614     0.918140
+   13    ip1k|steady@avg(-39..-15)/A    3.348012   1.560015 4.426992           1.557912     1.065429
+   14    inst|steady@avg(-33..-21)/A    3.350318   1.462482 4.423677           1.625113     1.006697
+   15 ip1k|steady@avg(-36,-24,-12)/A    3.354095   1.637690 4.976182           1.689394    -0.012195
+
+== consensus (mean sd_uniform over N5_realistic & LUFS_realistic):
+                              id  sdu_N5_realistic  sdmax_N5_realistic  sdu_LUFS_realistic  sdmax_LUFS_realistic  sd_uniform_mean  sd_max_mean
+   inst|sweep7_-45_-9@0/K_meandb          3.355552            4.483450            3.023225              4.391001         3.189388     4.437225
+  inst|sweep7_-39_-15@0/K_meandb          3.382564            4.632600            3.033447              4.386351         3.208006     4.509475
+     inst|steady@avg(-39..-15)/K          3.398781            4.552593            3.023081              4.476498         3.210931     4.514545
+   ip1k|sweep7_-45_-9@0/K_meandb          3.408684            4.520087            3.017702              4.375996         3.213193     4.448042
+  ip1k|sweep7_-39_-15@0/K_meandb          3.423872            4.656498            3.014346              4.366055         3.219109     4.511277
+     ip1k|steady@avg(-39..-15)/K          3.440420            4.593782            3.002487              4.439842         3.221454     4.516812
+ip2k|sweep7_-45_-9@0/hp80_meandb          3.398723            5.100692            3.130239              4.868637         3.264481     4.984664
+  inst|steady@avg(-36,-24,-12)/K          3.492202            5.440529            3.041203              5.131320         3.266702     5.285925
+inst|sweep7_-45_-9@0/hp80_meandb          3.538546            4.963194            3.004852              4.550108         3.271699     4.756651
+                inst|pluck@-27/K          3.457760            4.668585            3.095013              4.521741         3.276386     4.595163
+                ip1k|pluck@-27/K          3.489478            4.695529            3.065379              4.487135         3.277429     4.591332
+     inst|steady@avg(-33..-21)/K          3.479935            4.676619            3.087188              4.516837         3.283561     4.596728
+     inst|steady@avg(-36..-12)/K          3.512523            5.500408            3.054928              5.203181         3.283726     5.351794
+     ip1k|steady@avg(-33..-21)/K          3.510998            4.709266            3.059164              4.477855         3.285081     4.593560
+  inst|sweep7_-33_-21@0/K_meandb          3.471528            4.771803            3.107255              4.530400         3.289392     4.651102
+  ip1k|steady@avg(-36,-24,-12)/K          3.542609            5.481856            3.036961              5.133774         3.289785     5.307815
+  ip1k|sweep7_-33_-21@0/K_meandb          3.502753            4.787400            3.080035              4.502335         3.291394     4.644867
+ip2k|sweep7_-45_-9@0/flat_meandb          3.497265            5.264323            3.088705              4.939882         3.292985     5.102103
+     ip1k|steady@avg(-36..-12)/K          3.556756            5.536910            3.044545              5.202034         3.300651     5.369472
+  inst|sweep7_-33_-21@0/K_energy          3.488220            5.268499            3.115164              5.035886         3.301692     5.152192
+  inst|steady@avg(-39..-15)/hp80          3.596108            5.051340            3.007784              4.654989         3.301946     4.853165
+  inst|sweep5_-36_-12@0/K_meandb          3.531720            5.588623            3.076397              5.298334         3.304058     5.443479
+inst|sweep7_-45_-9@0/flat_meandb          3.625718            5.132797            2.982578              4.645599         3.304148     4.889198
+  ip1k|sweep7_-33_-21@0/K_energy          3.521611            5.287414            3.088719              5.013280         3.305165     5.150347
+ip1k|sweep7_-45_-9@0/hp80_meandb          3.576084            4.976848            3.037311              4.553129         3.306698     4.764989
+best overall: inst|sweep7_-45_-9@0/K_meandb  best by family: {'steady': 'ip1k|steady@-27/K', 'pluck': 'inst|pluck@-27/K', 'sweep': 'inst|sweep7_-45_-9@0/K_meandb', 'avg': 'inst|steady@avg(-39..-15)/K'}
+recommended (figures + migration): ip1k|sweep7_-39_-15@0/K_meandb
+
+== migration: {
+ "candidate": "ip1k|sweep7_-39_-15@0/K_meandb",
+ "median_L_old": -19.23752,
+ "median_L_new_raw": -22.30554,
+ "calibration_offset_c_db": 3.0680200000000006,
+ "sd_L_old": 6.020544289362368,
+ "sd_L_new": 7.709198267052114,
+ "sd_(L_new+c - L_old)": 5.6081121384896075,
+ "clamp_hits_old_pct": 8.045977011494253,
+ "clamp_hits_new_pct_at_c": 13.409961685823754,
+ "clamp_hits_new_pct_c_minimising": {
+  "c": 5.568020000000001,
+  "pct": 9.961685823754788
+ },
+ "max_L_new_plus_c": -5.65029
+}
+
+== length test (K level minus the 4 s value, dB):
+ secs     0.5           1.0           2.0       
+        mean    std   mean    std   mean    std
+level                                          
+-30.0  0.001  0.148  0.031  0.088  0.009  0.043
+-24.0  0.012  0.152  0.035  0.085  0.011  0.042
+-18.0  0.020  0.166  0.041  0.098  0.013  0.042

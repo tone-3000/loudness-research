@@ -1,0 +1,2288 @@
+{
+ "clips": [
+  {
+   "label": "clean guitar (Mayer)",
+   "instrument": "guitar"
+  },
+  {
+   "label": "rhythm guitar (Metalcore)",
+   "instrument": "guitar"
+  },
+  {
+   "label": "lead guitar (Slide Lead)",
+   "instrument": "guitar"
+  },
+  {
+   "label": "bass (Downtown)",
+   "instrument": "bass"
+  },
+  {
+   "label": "bass (Drivin')",
+   "instrument": "bass"
+  }
+ ],
+ "levels": [
+  0.0,
+  -9.0,
+  6.0
+ ],
+ "target": -18.0,
+ "clamp": {
+  "current": 12.0,
+  "proposed": 18.0
+ },
+ "calibration": 3.0,
+ "gref": 9.75,
+ "models": [
+  {
+   "id": "m152",
+   "gear": "amp",
+   "instrument": "guitar",
+   "training_type": "sweep-v3",
+   "creator": "c35",
+   "L_old": -19.28,
+   "L_new": -24.81,
+   "gain": {
+    "current": 1.28,
+    "proposed": 6.81,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 1.28,
+    "proposed": 6.81
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m152_c0_+0.mp3",
+     "trim": 12.54,
+     "K": -26.39,
+     "LUFS": -26.38,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m152_c0_-9.mp3",
+     "trim": 17.03,
+     "K": -33.55,
+     "LUFS": -33.55,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m152_c0_+6.mp3",
+     "trim": 9.66,
+     "K": -23.36,
+     "LUFS": -23.3,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m152_c1_+0.mp3",
+     "trim": 12.81,
+     "K": -28.13,
+     "LUFS": -27.99,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m152_c1_-9.mp3",
+     "trim": 17.64,
+     "K": -35.85,
+     "LUFS": -35.7,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m152_c1_+6.mp3",
+     "trim": 11.59,
+     "K": -25.07,
+     "LUFS": -24.96,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m152_c2_+0.mp3",
+     "trim": 13.61,
+     "K": -30.14,
+     "LUFS": -29.39,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m152_c2_-9.mp3",
+     "trim": 20.16,
+     "K": -38.27,
+     "LUFS": -37.51,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m152_c2_+6.mp3",
+     "trim": 12.32,
+     "K": -26.59,
+     "LUFS": -26.11,
+     "ir": "celestion"
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m152_c3_+0.mp3",
+     "trim": 3.8,
+     "K": -17.13,
+     "LUFS": -17.12,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m152_c3_-9.mp3",
+     "trim": 10.79,
+     "K": -25.56,
+     "LUFS": -25.56,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m152_c3_+6.mp3",
+     "trim": 0.33,
+     "K": -13.04,
+     "LUFS": -12.97,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m152_c4_+0.mp3",
+     "trim": 4.73,
+     "K": -20.98,
+     "LUFS": -20.96,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m152_c4_-9.mp3",
+     "trim": 10.45,
+     "K": -28.94,
+     "LUFS": -28.9,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m152_c4_+6.mp3",
+     "trim": 3.52,
+     "K": -17.78,
+     "LUFS": -17.78,
+     "ir": "ampeg"
+    }
+   }
+  },
+  {
+   "id": "m054",
+   "gear": "amp",
+   "instrument": "guitar",
+   "training_type": "sweep-v3",
+   "creator": "c34",
+   "L_old": -14.22,
+   "L_new": -11.33,
+   "gain": {
+    "current": -3.78,
+    "proposed": -6.67,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": -3.78,
+    "proposed": -6.67
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m054_c0_+0.mp3",
+     "trim": 1.81,
+     "K": -15.37,
+     "LUFS": -15.32,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m054_c0_-9.mp3",
+     "trim": 2.94,
+     "K": -15.86,
+     "LUFS": -15.81,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m054_c0_+6.mp3",
+     "trim": 1.11,
+     "K": -14.76,
+     "LUFS": -14.69,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m054_c1_+0.mp3",
+     "trim": 1.52,
+     "K": -14.84,
+     "LUFS": -14.74,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m054_c1_-9.mp3",
+     "trim": 2.37,
+     "K": -15.62,
+     "LUFS": -15.52,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m054_c1_+6.mp3",
+     "trim": 1.38,
+     "K": -14.44,
+     "LUFS": -14.34,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m054_c2_+0.mp3",
+     "trim": 3.56,
+     "K": -16.85,
+     "LUFS": -16.85,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m054_c2_-9.mp3",
+     "trim": 4.74,
+     "K": -17.86,
+     "LUFS": -17.85,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m054_c2_+6.mp3",
+     "trim": 2.79,
+     "K": -16.37,
+     "LUFS": -16.39,
+     "ir": "celestion"
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m054_c3_+0.mp3",
+     "trim": -4.55,
+     "K": -8.07,
+     "LUFS": -8.05,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m054_c3_-9.mp3",
+     "trim": -4.34,
+     "K": -8.36,
+     "LUFS": -8.34,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m054_c3_+6.mp3",
+     "trim": -5.54,
+     "K": -7.36,
+     "LUFS": -7.33,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m054_c4_+0.mp3",
+     "trim": -2.78,
+     "K": -10.79,
+     "LUFS": -10.83,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m054_c4_-9.mp3",
+     "trim": -2.05,
+     "K": -10.82,
+     "LUFS": -10.86,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m054_c4_+6.mp3",
+     "trim": -2.49,
+     "K": -11.14,
+     "LUFS": -11.17,
+     "ir": "ampeg"
+    }
+   }
+  },
+  {
+   "id": "m012",
+   "gear": "amp",
+   "instrument": "guitar",
+   "training_type": "dry-wet",
+   "creator": "c11",
+   "L_old": -18.06,
+   "L_new": -13.1,
+   "gain": {
+    "current": 0.06,
+    "proposed": -4.9,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 0.06,
+    "proposed": -4.9
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m012_c0_+0.mp3",
+     "trim": 5.26,
+     "K": -17.94,
+     "LUFS": -17.91,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m012_c0_-9.mp3",
+     "trim": 7.62,
+     "K": -19.34,
+     "LUFS": -19.32,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m012_c0_+6.mp3",
+     "trim": 4.54,
+     "K": -17.57,
+     "LUFS": -17.54,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m012_c1_+0.mp3",
+     "trim": 6.29,
+     "K": -18.82,
+     "LUFS": -18.73,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m012_c1_-9.mp3",
+     "trim": 7.76,
+     "K": -21.84,
+     "LUFS": -21.73,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m012_c1_+6.mp3",
+     "trim": 5.33,
+     "K": -17.62,
+     "LUFS": -17.53,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m012_c2_+0.mp3",
+     "trim": 7.74,
+     "K": -19.98,
+     "LUFS": -19.96,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m012_c2_-9.mp3",
+     "trim": 8.91,
+     "K": -22.07,
+     "LUFS": -21.68,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m012_c2_+6.mp3",
+     "trim": 7.25,
+     "K": -19.12,
+     "LUFS": -19.1,
+     "ir": "celestion"
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m012_c3_+0.mp3",
+     "trim": 2.04,
+     "K": -15.58,
+     "LUFS": -15.53,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m012_c3_-9.mp3",
+     "trim": 4.64,
+     "K": -18.7,
+     "LUFS": -18.64,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m012_c3_+6.mp3",
+     "trim": 1.67,
+     "K": -14.87,
+     "LUFS": -14.83,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m012_c4_+0.mp3",
+     "trim": 3.19,
+     "K": -16.58,
+     "LUFS": -16.58,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m012_c4_-9.mp3",
+     "trim": 3.7,
+     "K": -18.16,
+     "LUFS": -18.17,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m012_c4_+6.mp3",
+     "trim": 2.06,
+     "K": -15.97,
+     "LUFS": -15.97,
+     "ir": "ampeg"
+    }
+   }
+  },
+  {
+   "id": "m085",
+   "gear": "amp",
+   "instrument": "bass",
+   "training_type": "convert",
+   "creator": "c30",
+   "L_old": -20.5,
+   "L_new": -35.53,
+   "gain": {
+    "current": 2.5,
+    "proposed": 17.53,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 2.5,
+    "proposed": 17.53
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m085_c0_+0.mp3",
+     "trim": 18.95,
+     "K": -36.52,
+     "LUFS": -36.41,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m085_c0_-9.mp3",
+     "trim": 28.02,
+     "K": -45.54,
+     "LUFS": -45.44,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m085_c0_+6.mp3",
+     "trim": 12.84,
+     "K": -30.47,
+     "LUFS": -30.36,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m085_c1_+0.mp3",
+     "trim": 19.42,
+     "K": -39.5,
+     "LUFS": -39.35,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m085_c1_-9.mp3",
+     "trim": 28.58,
+     "K": -48.54,
+     "LUFS": -48.39,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m085_c1_+6.mp3",
+     "trim": 13.26,
+     "K": -33.42,
+     "LUFS": -33.27,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m085_c2_+0.mp3",
+     "trim": 19.7,
+     "K": -45.84,
+     "LUFS": -45.27,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m085_c2_-9.mp3",
+     "trim": 29.05,
+     "K": -54.87,
+     "LUFS": -54.21,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m085_c2_+6.mp3",
+     "trim": 13.57,
+     "K": -39.81,
+     "LUFS": -39.23,
+     "ir": "celestion"
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m085_c3_+0.mp3",
+     "trim": 14.4,
+     "K": -29.83,
+     "LUFS": -29.83,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m085_c3_-9.mp3",
+     "trim": 23.46,
+     "K": -38.84,
+     "LUFS": -38.84,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m085_c3_+6.mp3",
+     "trim": 8.28,
+     "K": -23.81,
+     "LUFS": -23.81,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m085_c4_+0.mp3",
+     "trim": 14.61,
+     "K": -31.67,
+     "LUFS": -31.65,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m085_c4_-9.mp3",
+     "trim": 23.59,
+     "K": -40.66,
+     "LUFS": -40.64,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m085_c4_+6.mp3",
+     "trim": 8.59,
+     "K": -25.68,
+     "LUFS": -25.65,
+     "ir": "ampeg"
+    }
+   }
+  },
+  {
+   "id": "m124",
+   "gear": "amp",
+   "instrument": "bass",
+   "training_type": "sweep-v3",
+   "creator": "c32",
+   "L_old": -21.43,
+   "L_new": -20.1,
+   "gain": {
+    "current": 3.43,
+    "proposed": 2.1,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 3.43,
+    "proposed": 2.1
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m124_c0_+0.mp3",
+     "trim": 10.23,
+     "K": -22.48,
+     "LUFS": -22.42,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m124_c0_-9.mp3",
+     "trim": 14.09,
+     "K": -27.08,
+     "LUFS": -27.09,
+     "ir": "celestion"
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m124_c0_+6.mp3",
+     "trim": 7.12,
+     "K": -20.37,
+     "LUFS": -20.28,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m124_c1_+0.mp3",
+     "trim": 8.95,
+     "K": -23.02,
+     "LUFS": -22.89,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m124_c1_-9.mp3",
+     "trim": 10.94,
+     "K": -27.95,
+     "LUFS": -27.8,
+     "ir": "celestion"
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m124_c1_+6.mp3",
+     "trim": 7.33,
+     "K": -20.81,
+     "LUFS": -20.68,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m124_c2_+0.mp3",
+     "trim": 10.05,
+     "K": -23.25,
+     "LUFS": -22.77,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m124_c2_-9.mp3",
+     "trim": 12.0,
+     "K": -28.63,
+     "LUFS": -27.89,
+     "ir": "celestion"
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m124_c2_+6.mp3",
+     "trim": 9.45,
+     "K": -21.02,
+     "LUFS": -20.99,
+     "ir": "celestion"
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m124_c3_+0.mp3",
+     "trim": 2.31,
+     "K": -15.55,
+     "LUFS": -15.53,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m124_c3_-9.mp3",
+     "trim": 8.71,
+     "K": -22.9,
+     "LUFS": -22.89,
+     "ir": "ampeg"
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m124_c3_+6.mp3",
+     "trim": -0.5,
+     "K": -12.04,
+     "LUFS": -12.03,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m124_c4_+0.mp3",
+     "trim": 4.27,
+     "K": -20.15,
+     "LUFS": -20.16,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m124_c4_-9.mp3",
+     "trim": 7.73,
+     "K": -25.04,
+     "LUFS": -25.02,
+     "ir": "ampeg"
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m124_c4_+6.mp3",
+     "trim": 3.63,
+     "K": -18.45,
+     "LUFS": -18.44,
+     "ir": "ampeg"
+    }
+   }
+  },
+  {
+   "id": "m091",
+   "gear": "amp-cab",
+   "instrument": "guitar",
+   "training_type": "sweep-v3",
+   "creator": "c02",
+   "L_old": -17.53,
+   "L_new": -19.62,
+   "gain": {
+    "current": -0.47,
+    "proposed": 1.62,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": -0.47,
+    "proposed": 1.62
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m091_c0_+0.mp3",
+     "trim": 3.83,
+     "K": -18.5,
+     "LUFS": -18.55,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m091_c0_-9.mp3",
+     "trim": 7.76,
+     "K": -24.71,
+     "LUFS": -24.73,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m091_c0_+6.mp3",
+     "trim": 3.56,
+     "K": -16.2,
+     "LUFS": -16.22,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m091_c1_+0.mp3",
+     "trim": 5.83,
+     "K": -23.28,
+     "LUFS": -23.15,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m091_c1_-9.mp3",
+     "trim": 10.28,
+     "K": -31.42,
+     "LUFS": -31.27,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m091_c1_+6.mp3",
+     "trim": 4.52,
+     "K": -19.9,
+     "LUFS": -19.78,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m091_c2_+0.mp3",
+     "trim": 6.34,
+     "K": -22.51,
+     "LUFS": -21.68,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m091_c2_-9.mp3",
+     "trim": 10.46,
+     "K": -32.48,
+     "LUFS": -31.63,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m091_c2_+6.mp3",
+     "trim": 5.22,
+     "K": -18.81,
+     "LUFS": -18.08,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m091_c3_+0.mp3",
+     "trim": 4.5,
+     "K": -23.04,
+     "LUFS": -23.31,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m091_c3_-9.mp3",
+     "trim": 8.79,
+     "K": -30.92,
+     "LUFS": -31.39,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m091_c3_+6.mp3",
+     "trim": 3.06,
+     "K": -19.85,
+     "LUFS": -19.97,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m091_c4_+0.mp3",
+     "trim": 4.59,
+     "K": -22.0,
+     "LUFS": -21.91,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m091_c4_-9.mp3",
+     "trim": 9.42,
+     "K": -29.77,
+     "LUFS": -29.67,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m091_c4_+6.mp3",
+     "trim": 3.54,
+     "K": -19.08,
+     "LUFS": -19.02,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m222",
+   "gear": "amp-cab",
+   "instrument": "guitar",
+   "training_type": NaN,
+   "creator": "c04",
+   "L_old": -19.37,
+   "L_new": -15.77,
+   "gain": {
+    "current": 1.37,
+    "proposed": -2.23,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 1.37,
+    "proposed": -2.23
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m222_c0_+0.mp3",
+     "trim": 5.03,
+     "K": -17.77,
+     "LUFS": -17.73,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m222_c0_-9.mp3",
+     "trim": 5.94,
+     "K": -18.23,
+     "LUFS": -18.2,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m222_c0_+6.mp3",
+     "trim": 4.91,
+     "K": -17.56,
+     "LUFS": -17.53,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m222_c1_+0.mp3",
+     "trim": 4.03,
+     "K": -17.32,
+     "LUFS": -17.21,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m222_c1_-9.mp3",
+     "trim": 5.64,
+     "K": -18.28,
+     "LUFS": -18.17,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m222_c1_+6.mp3",
+     "trim": 3.41,
+     "K": -17.05,
+     "LUFS": -16.94,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m222_c2_+0.mp3",
+     "trim": 8.23,
+     "K": -20.12,
+     "LUFS": -20.11,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m222_c2_-9.mp3",
+     "trim": 8.98,
+     "K": -20.96,
+     "LUFS": -20.95,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m222_c2_+6.mp3",
+     "trim": 6.76,
+     "K": -19.78,
+     "LUFS": -19.78,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m222_c3_+0.mp3",
+     "trim": 4.71,
+     "K": -17.91,
+     "LUFS": -17.91,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m222_c3_-9.mp3",
+     "trim": 6.1,
+     "K": -19.0,
+     "LUFS": -19.02,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m222_c3_+6.mp3",
+     "trim": 3.93,
+     "K": -17.29,
+     "LUFS": -17.27,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m222_c4_+0.mp3",
+     "trim": 3.43,
+     "K": -18.14,
+     "LUFS": -18.13,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m222_c4_-9.mp3",
+     "trim": 5.06,
+     "K": -18.93,
+     "LUFS": -18.88,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m222_c4_+6.mp3",
+     "trim": 2.68,
+     "K": -17.67,
+     "LUFS": -17.69,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m057",
+   "gear": "amp-cab",
+   "instrument": "guitar",
+   "training_type": "sweep-v3",
+   "creator": "c34",
+   "L_old": -21.39,
+   "L_new": -14.1,
+   "gain": {
+    "current": 3.39,
+    "proposed": -3.9,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 3.39,
+    "proposed": -3.9
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m057_c0_+0.mp3",
+     "trim": 5.63,
+     "K": -15.6,
+     "LUFS": -15.6,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m057_c0_-9.mp3",
+     "trim": 6.48,
+     "K": -16.9,
+     "LUFS": -16.9,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m057_c0_+6.mp3",
+     "trim": 5.29,
+     "K": -15.31,
+     "LUFS": -15.3,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m057_c1_+0.mp3",
+     "trim": 5.39,
+     "K": -17.67,
+     "LUFS": -17.56,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m057_c1_-9.mp3",
+     "trim": 8.52,
+     "K": -20.85,
+     "LUFS": -20.73,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m057_c1_+6.mp3",
+     "trim": 4.79,
+     "K": -16.78,
+     "LUFS": -16.67,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m057_c2_+0.mp3",
+     "trim": 6.91,
+     "K": -19.12,
+     "LUFS": -19.09,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m057_c2_-9.mp3",
+     "trim": 7.68,
+     "K": -21.28,
+     "LUFS": -20.87,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m057_c2_+6.mp3",
+     "trim": 6.37,
+     "K": -18.2,
+     "LUFS": -18.17,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m057_c3_+0.mp3",
+     "trim": 3.43,
+     "K": -14.64,
+     "LUFS": -14.63,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m057_c3_-9.mp3",
+     "trim": 4.95,
+     "K": -17.01,
+     "LUFS": -16.98,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m057_c3_+6.mp3",
+     "trim": 2.92,
+     "K": -14.21,
+     "LUFS": -14.21,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m057_c4_+0.mp3",
+     "trim": 4.77,
+     "K": -16.12,
+     "LUFS": -16.12,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m057_c4_-9.mp3",
+     "trim": 5.52,
+     "K": -17.63,
+     "LUFS": -17.64,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m057_c4_+6.mp3",
+     "trim": 4.5,
+     "K": -15.71,
+     "LUFS": -15.71,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m039",
+   "gear": "amp-cab",
+   "instrument": "bass",
+   "training_type": "sweep-v3",
+   "creator": "c19",
+   "L_old": -20.64,
+   "L_new": -26.09,
+   "gain": {
+    "current": 2.64,
+    "proposed": 8.09,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 2.64,
+    "proposed": 8.09
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m039_c0_+0.mp3",
+     "trim": 14.33,
+     "K": -27.93,
+     "LUFS": -27.88,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m039_c0_-9.mp3",
+     "trim": 23.09,
+     "K": -36.84,
+     "LUFS": -36.8,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m039_c0_+6.mp3",
+     "trim": 8.71,
+     "K": -22.12,
+     "LUFS": -22.08,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m039_c1_+0.mp3",
+     "trim": 11.21,
+     "K": -29.48,
+     "LUFS": -29.34,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m039_c1_-9.mp3",
+     "trim": 19.79,
+     "K": -38.38,
+     "LUFS": -38.24,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m039_c1_+6.mp3",
+     "trim": 5.79,
+     "K": -23.7,
+     "LUFS": -23.56,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m039_c2_+0.mp3",
+     "trim": 16.35,
+     "K": -32.07,
+     "LUFS": -31.2,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m039_c2_-9.mp3",
+     "trim": 25.09,
+     "K": -41.03,
+     "LUFS": -40.16,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m039_c2_+6.mp3",
+     "trim": 10.84,
+     "K": -26.17,
+     "LUFS": -25.3,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m039_c3_+0.mp3",
+     "trim": 10.3,
+     "K": -26.11,
+     "LUFS": -26.15,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m039_c3_-9.mp3",
+     "trim": 18.85,
+     "K": -34.98,
+     "LUFS": -35.02,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m039_c3_+6.mp3",
+     "trim": 5.29,
+     "K": -20.33,
+     "LUFS": -20.37,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m039_c4_+0.mp3",
+     "trim": 11.93,
+     "K": -28.02,
+     "LUFS": -28.01,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m039_c4_-9.mp3",
+     "trim": 20.63,
+     "K": -36.91,
+     "LUFS": -36.9,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m039_c4_+6.mp3",
+     "trim": 6.47,
+     "K": -22.24,
+     "LUFS": -22.23,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m254",
+   "gear": "amp-cab",
+   "instrument": "bass",
+   "training_type": "sweep-v3",
+   "creator": "c27",
+   "L_old": -18.53,
+   "L_new": -14.71,
+   "gain": {
+    "current": 0.53,
+    "proposed": -3.29,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 0.53,
+    "proposed": -3.29
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m254_c0_+0.mp3",
+     "trim": 5.35,
+     "K": -15.52,
+     "LUFS": -15.48,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m254_c0_-9.mp3",
+     "trim": 6.5,
+     "K": -16.38,
+     "LUFS": -16.34,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m254_c0_+6.mp3",
+     "trim": 4.0,
+     "K": -15.01,
+     "LUFS": -14.96,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m254_c1_+0.mp3",
+     "trim": 4.65,
+     "K": -17.07,
+     "LUFS": -16.96,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m254_c1_-9.mp3",
+     "trim": 5.76,
+     "K": -17.87,
+     "LUFS": -17.75,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m254_c1_+6.mp3",
+     "trim": 2.76,
+     "K": -16.62,
+     "LUFS": -16.52,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m254_c2_+0.mp3",
+     "trim": 5.51,
+     "K": -19.05,
+     "LUFS": -19.03,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m254_c2_-9.mp3",
+     "trim": 6.65,
+     "K": -20.14,
+     "LUFS": -20.11,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m254_c2_+6.mp3",
+     "trim": 3.99,
+     "K": -18.33,
+     "LUFS": -18.31,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m254_c3_+0.mp3",
+     "trim": 2.02,
+     "K": -16.0,
+     "LUFS": -16.01,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m254_c3_-9.mp3",
+     "trim": 3.68,
+     "K": -16.86,
+     "LUFS": -16.87,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m254_c3_+6.mp3",
+     "trim": 0.43,
+     "K": -15.21,
+     "LUFS": -15.22,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m254_c4_+0.mp3",
+     "trim": 5.42,
+     "K": -17.61,
+     "LUFS": -17.57,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m254_c4_-9.mp3",
+     "trim": 6.92,
+     "K": -18.27,
+     "LUFS": -18.29,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m254_c4_+6.mp3",
+     "trim": 4.46,
+     "K": -16.52,
+     "LUFS": -16.47,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m067",
+   "gear": "pedal",
+   "instrument": "guitar",
+   "training_type": "dry-wet",
+   "creator": "c22",
+   "L_old": -12.66,
+   "L_new": -18.4,
+   "gain": {
+    "current": -5.34,
+    "proposed": 0.4,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": -5.34,
+    "proposed": 0.4
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m067_c0_+0.mp3",
+     "trim": 5.19,
+     "K": -20.08,
+     "LUFS": -20.13,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m067_c0_-9.mp3",
+     "trim": 12.3,
+     "K": -27.37,
+     "LUFS": -27.42,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m067_c0_+6.mp3",
+     "trim": 1.62,
+     "K": -15.25,
+     "LUFS": -15.29,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m067_c1_+0.mp3",
+     "trim": 3.38,
+     "K": -23.48,
+     "LUFS": -23.35,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m067_c1_-9.mp3",
+     "trim": 10.74,
+     "K": -31.12,
+     "LUFS": -30.98,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m067_c1_+6.mp3",
+     "trim": 1.31,
+     "K": -18.49,
+     "LUFS": -18.36,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m067_c2_+0.mp3",
+     "trim": 2.43,
+     "K": -23.23,
+     "LUFS": -22.4,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m067_c2_-9.mp3",
+     "trim": 9.32,
+     "K": -30.89,
+     "LUFS": -30.05,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m067_c2_+6.mp3",
+     "trim": 1.29,
+     "K": -18.35,
+     "LUFS": -17.51,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m067_c3_+0.mp3",
+     "trim": 3.13,
+     "K": -23.21,
+     "LUFS": -23.56,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m067_c3_-9.mp3",
+     "trim": 10.42,
+     "K": -31.17,
+     "LUFS": -31.61,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m067_c3_+6.mp3",
+     "trim": 0.89,
+     "K": -18.07,
+     "LUFS": -18.4,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m067_c4_+0.mp3",
+     "trim": 2.62,
+     "K": -22.81,
+     "LUFS": -22.76,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m067_c4_-9.mp3",
+     "trim": 9.87,
+     "K": -30.7,
+     "LUFS": -30.64,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m067_c4_+6.mp3",
+     "trim": 1.05,
+     "K": -17.77,
+     "LUFS": -17.72,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m088",
+   "gear": "pedal",
+   "instrument": "guitar",
+   "training_type": "dry-wet",
+   "creator": "c11",
+   "L_old": -16.95,
+   "L_new": -10.24,
+   "gain": {
+    "current": -1.05,
+    "proposed": -7.76,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": -1.05,
+    "proposed": -7.76
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m088_c0_+0.mp3",
+     "trim": 6.65,
+     "K": -13.37,
+     "LUFS": -13.39,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m088_c0_-9.mp3",
+     "trim": 6.77,
+     "K": -13.45,
+     "LUFS": -13.47,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m088_c0_+6.mp3",
+     "trim": 6.68,
+     "K": -13.33,
+     "LUFS": -13.34,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m088_c1_+0.mp3",
+     "trim": 6.02,
+     "K": -13.68,
+     "LUFS": -13.58,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m088_c1_-9.mp3",
+     "trim": 6.14,
+     "K": -13.78,
+     "LUFS": -13.68,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m088_c1_+6.mp3",
+     "trim": 5.67,
+     "K": -13.68,
+     "LUFS": -13.59,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m088_c2_+0.mp3",
+     "trim": 6.39,
+     "K": -13.29,
+     "LUFS": -13.27,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m088_c2_-9.mp3",
+     "trim": 6.58,
+     "K": -13.47,
+     "LUFS": -13.44,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m088_c2_+6.mp3",
+     "trim": 6.21,
+     "K": -13.22,
+     "LUFS": -13.2,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m088_c3_+0.mp3",
+     "trim": 5.63,
+     "K": -14.71,
+     "LUFS": -14.71,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m088_c3_-9.mp3",
+     "trim": 5.66,
+     "K": -14.64,
+     "LUFS": -14.63,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m088_c3_+6.mp3",
+     "trim": 5.55,
+     "K": -14.74,
+     "LUFS": -14.74,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m088_c4_+0.mp3",
+     "trim": 5.53,
+     "K": -13.64,
+     "LUFS": -13.64,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m088_c4_-9.mp3",
+     "trim": 5.67,
+     "K": -13.73,
+     "LUFS": -13.73,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m088_c4_+6.mp3",
+     "trim": 5.59,
+     "K": -13.65,
+     "LUFS": -13.66,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m113",
+   "gear": "pedal",
+   "instrument": "bass",
+   "training_type": "convert",
+   "creator": "c23",
+   "L_old": -14.65,
+   "L_new": -16.82,
+   "gain": {
+    "current": -3.35,
+    "proposed": -1.18,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": -3.35,
+    "proposed": -1.18
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m113_c0_+0.mp3",
+     "trim": 11.07,
+     "K": -20.83,
+     "LUFS": -20.82,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m113_c0_-9.mp3",
+     "trim": 13.92,
+     "K": -21.93,
+     "LUFS": -21.93,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m113_c0_+6.mp3",
+     "trim": 7.4,
+     "K": -19.86,
+     "LUFS": -19.84,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m113_c1_+0.mp3",
+     "trim": 9.33,
+     "K": -21.04,
+     "LUFS": -20.93,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m113_c1_-9.mp3",
+     "trim": 12.95,
+     "K": -22.67,
+     "LUFS": -22.55,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m113_c1_+6.mp3",
+     "trim": 7.29,
+     "K": -19.59,
+     "LUFS": -19.48,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m113_c2_+0.mp3",
+     "trim": 11.78,
+     "K": -21.93,
+     "LUFS": -21.91,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m113_c2_-9.mp3",
+     "trim": 14.27,
+     "K": -22.88,
+     "LUFS": -22.85,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m113_c2_+6.mp3",
+     "trim": 9.76,
+     "K": -21.51,
+     "LUFS": -21.49,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m113_c3_+0.mp3",
+     "trim": 8.08,
+     "K": -18.71,
+     "LUFS": -18.71,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m113_c3_-9.mp3",
+     "trim": 12.15,
+     "K": -20.95,
+     "LUFS": -20.94,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m113_c3_+6.mp3",
+     "trim": 5.29,
+     "K": -16.18,
+     "LUFS": -16.16,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m113_c4_+0.mp3",
+     "trim": 7.14,
+     "K": -19.94,
+     "LUFS": -19.93,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m113_c4_-9.mp3",
+     "trim": 11.84,
+     "K": -21.61,
+     "LUFS": -21.62,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m113_c4_+6.mp3",
+     "trim": 3.85,
+     "K": -17.95,
+     "LUFS": -17.93,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m153",
+   "gear": "outboard",
+   "instrument": "guitar",
+   "training_type": "convert",
+   "creator": "c31",
+   "L_old": -11.64,
+   "L_new": -19.85,
+   "gain": {
+    "current": -6.36,
+    "proposed": 1.85,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": -6.36,
+    "proposed": 1.85
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m153_c0_+0.mp3",
+     "trim": 7.23,
+     "K": -21.84,
+     "LUFS": -21.89,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m153_c0_-9.mp3",
+     "trim": 15.83,
+     "K": -30.73,
+     "LUFS": -30.78,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m153_c0_+6.mp3",
+     "trim": 2.82,
+     "K": -16.14,
+     "LUFS": -16.19,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m153_c1_+0.mp3",
+     "trim": 4.2,
+     "K": -23.61,
+     "LUFS": -23.46,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m153_c1_-9.mp3",
+     "trim": 12.13,
+     "K": -32.5,
+     "LUFS": -32.35,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m153_c1_+6.mp3",
+     "trim": 1.67,
+     "K": -18.08,
+     "LUFS": -17.93,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m153_c2_+0.mp3",
+     "trim": 3.61,
+     "K": -24.04,
+     "LUFS": -23.19,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m153_c2_-9.mp3",
+     "trim": 11.25,
+     "K": -33.02,
+     "LUFS": -32.17,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m153_c2_+6.mp3",
+     "trim": 0.52,
+     "K": -18.23,
+     "LUFS": -17.39,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m153_c3_+0.mp3",
+     "trim": 3.63,
+     "K": -22.98,
+     "LUFS": -23.33,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m153_c3_-9.mp3",
+     "trim": 11.92,
+     "K": -31.89,
+     "LUFS": -32.25,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m153_c3_+6.mp3",
+     "trim": 0.63,
+     "K": -17.28,
+     "LUFS": -17.57,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m153_c4_+0.mp3",
+     "trim": 3.85,
+     "K": -22.96,
+     "LUFS": -22.93,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m153_c4_-9.mp3",
+     "trim": 11.77,
+     "K": -31.86,
+     "LUFS": -31.83,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m153_c4_+6.mp3",
+     "trim": 0.95,
+     "K": -17.3,
+     "LUFS": -17.27,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m143",
+   "gear": "outboard",
+   "instrument": "guitar",
+   "training_type": "dry-wet",
+   "creator": "c22",
+   "L_old": -14.25,
+   "L_new": -9.56,
+   "gain": {
+    "current": -3.75,
+    "proposed": -8.44,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": -3.75,
+    "proposed": -8.44
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m143_c0_+0.mp3",
+     "trim": 3.52,
+     "K": -11.7,
+     "LUFS": -11.71,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m143_c0_-9.mp3",
+     "trim": 3.44,
+     "K": -11.41,
+     "LUFS": -11.43,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m143_c0_+6.mp3",
+     "trim": 3.62,
+     "K": -11.98,
+     "LUFS": -11.98,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m143_c1_+0.mp3",
+     "trim": 3.07,
+     "K": -12.55,
+     "LUFS": -12.48,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m143_c1_-9.mp3",
+     "trim": 3.45,
+     "K": -12.56,
+     "LUFS": -12.48,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m143_c1_+6.mp3",
+     "trim": 3.65,
+     "K": -12.67,
+     "LUFS": -12.61,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m143_c2_+0.mp3",
+     "trim": 3.75,
+     "K": -13.0,
+     "LUFS": -13.0,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m143_c2_-9.mp3",
+     "trim": 3.68,
+     "K": -12.93,
+     "LUFS": -12.92,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m143_c2_+6.mp3",
+     "trim": 3.88,
+     "K": -13.31,
+     "LUFS": -13.32,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m143_c3_+0.mp3",
+     "trim": 3.86,
+     "K": -12.94,
+     "LUFS": -12.93,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m143_c3_-9.mp3",
+     "trim": 3.67,
+     "K": -12.9,
+     "LUFS": -12.91,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m143_c3_+6.mp3",
+     "trim": 3.3,
+     "K": -12.98,
+     "LUFS": -12.97,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m143_c4_+0.mp3",
+     "trim": 3.61,
+     "K": -12.19,
+     "LUFS": -12.16,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m143_c4_-9.mp3",
+     "trim": 3.34,
+     "K": -12.03,
+     "LUFS": -11.99,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m143_c4_+6.mp3",
+     "trim": 2.77,
+     "K": -12.4,
+     "LUFS": -12.38,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m048",
+   "gear": "outboard",
+   "instrument": "bass",
+   "training_type": "sweep-v3",
+   "creator": "c25",
+   "L_old": -21.79,
+   "L_new": -32.16,
+   "gain": {
+    "current": 3.79,
+    "proposed": 14.16,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 3.79,
+    "proposed": 14.16
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m048_c0_+0.mp3",
+     "trim": 16.04,
+     "K": -30.57,
+     "LUFS": -30.51,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m048_c0_-9.mp3",
+     "trim": 20.78,
+     "K": -39.48,
+     "LUFS": -39.41,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m048_c0_+6.mp3",
+     "trim": 15.59,
+     "K": -25.45,
+     "LUFS": -25.47,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m048_c1_+0.mp3",
+     "trim": 18.28,
+     "K": -36.54,
+     "LUFS": -36.4,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m048_c1_-9.mp3",
+     "trim": 27.23,
+     "K": -45.52,
+     "LUFS": -45.37,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m048_c1_+6.mp3",
+     "trim": 15.64,
+     "K": -30.64,
+     "LUFS": -30.5,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m048_c2_+0.mp3",
+     "trim": 16.63,
+     "K": -39.05,
+     "LUFS": -37.89,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m048_c2_-9.mp3",
+     "trim": 21.95,
+     "K": -48.05,
+     "LUFS": -46.89,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m048_c2_+6.mp3",
+     "trim": 15.9,
+     "K": -33.49,
+     "LUFS": -32.34,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m048_c3_+0.mp3",
+     "trim": 16.35,
+     "K": -32.04,
+     "LUFS": -32.18,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m048_c3_-9.mp3",
+     "trim": 23.14,
+     "K": -40.95,
+     "LUFS": -41.1,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m048_c3_+6.mp3",
+     "trim": 14.95,
+     "K": -26.44,
+     "LUFS": -26.52,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m048_c4_+0.mp3",
+     "trim": 16.31,
+     "K": -32.85,
+     "LUFS": -32.81,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m048_c4_-9.mp3",
+     "trim": 24.39,
+     "K": -41.8,
+     "LUFS": -41.76,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m048_c4_+6.mp3",
+     "trim": 14.77,
+     "K": -27.17,
+     "LUFS": -27.15,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m201",
+   "gear": "experimental",
+   "instrument": "guitar",
+   "training_type": "dry-wet",
+   "creator": "c26",
+   "L_old": -13.91,
+   "L_new": -19.32,
+   "gain": {
+    "current": -4.09,
+    "proposed": 1.32,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": -4.09,
+    "proposed": 1.32
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m201_c0_+0.mp3",
+     "trim": 3.09,
+     "K": -20.85,
+     "LUFS": -20.86,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m201_c0_-9.mp3",
+     "trim": 9.78,
+     "K": -27.77,
+     "LUFS": -27.79,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m201_c0_+6.mp3",
+     "trim": -0.64,
+     "K": -17.1,
+     "LUFS": -17.12,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m201_c1_+0.mp3",
+     "trim": 2.97,
+     "K": -23.04,
+     "LUFS": -22.9,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m201_c1_-9.mp3",
+     "trim": 9.31,
+     "K": -30.27,
+     "LUFS": -30.12,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m201_c1_+6.mp3",
+     "trim": -0.46,
+     "K": -19.1,
+     "LUFS": -18.96,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m201_c2_+0.mp3",
+     "trim": 1.64,
+     "K": -25.65,
+     "LUFS": -24.92,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m201_c2_-9.mp3",
+     "trim": 7.76,
+     "K": -33.27,
+     "LUFS": -32.53,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m201_c2_+6.mp3",
+     "trim": -2.15,
+     "K": -21.37,
+     "LUFS": -20.82,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m201_c3_+0.mp3",
+     "trim": 2.83,
+     "K": -20.84,
+     "LUFS": -20.96,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m201_c3_-9.mp3",
+     "trim": 9.62,
+     "K": -27.52,
+     "LUFS": -27.68,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m201_c3_+6.mp3",
+     "trim": -0.82,
+     "K": -17.22,
+     "LUFS": -17.33,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m201_c4_+0.mp3",
+     "trim": 2.54,
+     "K": -21.1,
+     "LUFS": -21.09,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m201_c4_-9.mp3",
+     "trim": 8.92,
+     "K": -28.03,
+     "LUFS": -28.02,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m201_c4_+6.mp3",
+     "trim": -0.81,
+     "K": -17.38,
+     "LUFS": -17.38,
+     "ir": ""
+    }
+   }
+  },
+  {
+   "id": "m043",
+   "gear": "cab",
+   "instrument": "guitar",
+   "training_type": "sweep-v3",
+   "creator": "c03",
+   "L_old": -21.83,
+   "L_new": -27.14,
+   "gain": {
+    "current": 3.83,
+    "proposed": 9.14,
+    "none": 0.0
+   },
+   "unclamped": {
+    "current": 3.83,
+    "proposed": 9.14
+   },
+   "renders": {
+    "clean guitar (Mayer)|+0": {
+     "file": "audio/m043_c0_+0.mp3",
+     "trim": 15.57,
+     "K": -30.46,
+     "LUFS": -30.41,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|-9": {
+     "file": "audio/m043_c0_-9.mp3",
+     "trim": 24.58,
+     "K": -39.44,
+     "LUFS": -39.39,
+     "ir": ""
+    },
+    "clean guitar (Mayer)|+6": {
+     "file": "audio/m043_c0_+6.mp3",
+     "trim": 9.55,
+     "K": -24.47,
+     "LUFS": -24.42,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+0": {
+     "file": "audio/m043_c1_+0.mp3",
+     "trim": 11.14,
+     "K": -30.53,
+     "LUFS": -30.38,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|-9": {
+     "file": "audio/m043_c1_-9.mp3",
+     "trim": 20.11,
+     "K": -39.52,
+     "LUFS": -39.37,
+     "ir": ""
+    },
+    "rhythm guitar (Metalcore)|+6": {
+     "file": "audio/m043_c1_+6.mp3",
+     "trim": 5.16,
+     "K": -24.54,
+     "LUFS": -24.38,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+0": {
+     "file": "audio/m043_c2_+0.mp3",
+     "trim": 17.15,
+     "K": -34.31,
+     "LUFS": -33.55,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|-9": {
+     "file": "audio/m043_c2_-9.mp3",
+     "trim": 26.19,
+     "K": -43.31,
+     "LUFS": -42.55,
+     "ir": ""
+    },
+    "lead guitar (Slide Lead)|+6": {
+     "file": "audio/m043_c2_+6.mp3",
+     "trim": 11.37,
+     "K": -28.33,
+     "LUFS": -27.57,
+     "ir": ""
+    },
+    "bass (Downtown)|+0": {
+     "file": "audio/m043_c3_+0.mp3",
+     "trim": 11.12,
+     "K": -27.01,
+     "LUFS": -26.97,
+     "ir": ""
+    },
+    "bass (Downtown)|-9": {
+     "file": "audio/m043_c3_-9.mp3",
+     "trim": 20.07,
+     "K": -36.0,
+     "LUFS": -35.96,
+     "ir": ""
+    },
+    "bass (Downtown)|+6": {
+     "file": "audio/m043_c3_+6.mp3",
+     "trim": 5.36,
+     "K": -21.02,
+     "LUFS": -20.98,
+     "ir": ""
+    },
+    "bass (Drivin')|+0": {
+     "file": "audio/m043_c4_+0.mp3",
+     "trim": 13.51,
+     "K": -27.76,
+     "LUFS": -27.8,
+     "ir": ""
+    },
+    "bass (Drivin')|-9": {
+     "file": "audio/m043_c4_-9.mp3",
+     "trim": 22.51,
+     "K": -36.75,
+     "LUFS": -36.78,
+     "ir": ""
+    },
+    "bass (Drivin')|+6": {
+     "file": "audio/m043_c4_+6.mp3",
+     "trim": 7.52,
+     "K": -21.77,
+     "LUFS": -21.81,
+     "ir": ""
+    }
+   }
+  }
+ ]
+}

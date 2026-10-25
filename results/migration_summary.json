@@ -1,0 +1,16 @@
+{
+  "candidate": "ip1k|sweep7_-39_-15@0/K_meandb",
+  "median_L_old": -19.23752,
+  "median_L_new_raw": -22.30554,
+  "calibration_offset_c_db": 3.0680200000000006,
+  "sd_L_old": 6.020544289362368,
+  "sd_L_new": 7.709198267052114,
+  "sd_(L_new+c - L_old)": 5.6081121384896075,
+  "clamp_hits_old_pct": 8.045977011494253,
+  "clamp_hits_new_pct_at_c": 13.409961685823754,
+  "clamp_hits_new_pct_c_minimising": {
+    "c": 5.568020000000001,
+    "pct": 9.961685823754788
+  },
+  "max_L_new_plus_c": -5.65029
+}

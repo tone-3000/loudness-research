@@ -1,0 +1,12 @@
+# Private inputs: TONE3000 catalogue, model downloads and the mapping from the
+# anonymised ids used in this repository back to TONE3000 model / creator ids.
+data/private/
+data/models/
+
+# Per-model experiment output (~17 MB, regenerable; aggregated into
+# results/*.csv.gz by scripts/aggregate.py).
+results/raw/
+
+__pycache__/
+*.pyc
+.DS_Store
