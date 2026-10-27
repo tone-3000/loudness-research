@@ -350,8 +350,8 @@ auto-scan every N seconds); the clip position carries over, so the only
 thing that changes is the preset-to-preset volume jump. Each row shows the
 measured level you are hearing under all three schemes, with the spread
 across models for the selected one at the top. Amp-only models go through
-a cabinet IR; gains use the engines' arithmetic with the shipped ±12 dB
-clamp for the current value and ±18 dB for the proposed one.
+a cabinet IR; gains are the raw engine arithmetic, `−18 − loudness`, with
+no clamp.
 
 ## 8. Backward compatibility and migration
 

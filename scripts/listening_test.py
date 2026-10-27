@@ -42,8 +42,6 @@ CLIPS = [  # (label, DI name, instrument)
 LEVELS = [0.0, -9.0, 6.0]  # player level relative to the demo DIs (dB)
 IR_FOR = {"guitar": "celestion", "bass": "ampeg"}
 CALIBRATION_DB = 3.0
-CLAMP_CURRENT = 12.0
-CLAMP_PROPOSED = 18.0
 # how many models per gear x instrument stratum; picked at evenly spaced
 # quantiles of (new - old) so that the selection spans the spread, not only
 # the extremes.
@@ -73,10 +71,6 @@ def pick_models() -> pd.DataFrame:
     return sel
 
 
-def clamp(x: float, c: float) -> float:
-    return float(max(-c, min(c, x)))
-
-
 def main() -> int:
     AUDIO.mkdir(parents=True, exist_ok=True)
     sel = pick_models()
@@ -93,13 +87,13 @@ def main() -> int:
         model, _ = load_model(MODELS_DIR / f"{r.model_id}.nam")
         L_old = float(r.L_old)
         L_new = float(r.L_new) + CALIBRATION_DB
-        g_cur = clamp(ENGINE_TARGET_DB - L_old, CLAMP_CURRENT)
-        g_new = clamp(ENGINE_TARGET_DB - L_new, CLAMP_PROPOSED)
+        # raw engine arithmetic, no clamp: the test is about the metadata, not engine limits
+        g_cur = ENGINE_TARGET_DB - L_old
+        g_new = ENGINE_TARGET_DB - L_new
         entry = {
             "id": r.model_id, "gear": r.gear, "instrument": r.instrument, "training_type": r.training_type,
             "creator": r.creator, "L_old": round(L_old, 2), "L_new": round(L_new, 2),
             "gain": {"current": round(g_cur, 2), "proposed": round(g_new, 2), "none": 0.0},
-            "unclamped": {"current": round(ENGINE_TARGET_DB - L_old, 2), "proposed": round(ENGINE_TARGET_DB - L_new, 2)},
             "renders": {},
         }
         for ci, (label, (x, inst)) in enumerate(clips.items()):
@@ -128,7 +122,6 @@ def main() -> int:
         "clips": [{"label": c[0], "instrument": c[2]} for c in CLIPS],
         "levels": LEVELS,
         "target": ENGINE_TARGET_DB,
-        "clamp": {"current": CLAMP_CURRENT, "proposed": CLAMP_PROPOSED},
         "calibration": CALIBRATION_DB,
         "gref": round(gref, 2),
         "models": models_out,
@@ -177,7 +170,6 @@ HTML = r"""<!doctype html>
   .num { font-variant-numeric:tabular-nums; text-align:right; white-space:nowrap; }
   .legend span { display:inline-block; margin-right:14px; } .legend i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:5px; vertical-align:-1px; }
   .stat { display:inline-block; min-width:120px; margin-right:18px; } .stat b { font-size:18px; }
-  .clampnote { color:var(--cur); font-size:11px; }
   kbd { font: 11px ui-monospace, Menlo, monospace; border:1px solid #ccc; border-bottom-width:2px; border-radius:4px; padding:0 5px; background:#fff; }
   footer { margin-top:26px; color:var(--muted); font-size:12px; }
 </style>
@@ -185,7 +177,7 @@ HTML = r"""<!doctype html>
 <body>
 <h1>NAM loudness metadata — listening test</h1>
 <p>Real DI clips rendered through a representative set of public TONE3000 models, referred to by anonymised ids (every gear type, guitar and bass; amp-only models go through a cabinet IR at unity in-band gain, as the pedal and web engines do). Pick a normalisation scheme and switch models while the clip plays — exactly what a player does when stepping through presets. The clip position carries over between models, so what you hear is the volume jump between presets, nothing else.</p>
-<p class="muted">Gains are the engines' arithmetic, <code>−18 − loudness</code>, with the shipped ±12 dB clamp for the current value and the recommended ±18 dB clamp for the proposed one. All renders share one fixed trim so the three schemes are directly comparable; turn your monitor up — the files are deliberately quiet so that no gain ever clips.</p>
+<p class="muted">Gains are the raw engine arithmetic, <code>−18 − loudness</code>, with no clamp, so what you hear reflects the metadata alone. All renders share one fixed trim so the three schemes are directly comparable; turn your monitor up — the files are deliberately quiet so that no gain ever clips.</p>
 
 <div class="controls">
   <div class="ctl"><label>Normalisation</label>
@@ -248,7 +240,7 @@ function build() {
     tr.innerHTML = `<td><button class="play" data-i="${i}">▶</button></td>
       <td class="model"><div class="name">${m.gear} · ${m.instrument} <span class="muted" style="font-weight:400">(${m.id})</span></div><div class="sub">creator ${m.creator} · ${m.training_type}<span class="irnote"></span></div></td>
       <td class="num">${m.L_old.toFixed(1)} → ${m.L_new.toFixed(1)}</td>
-      <td class="num">${fmt(m.gain.current)}${m.gain.current !== m.unclamped.current ? ' <span class="clampnote">clamped (' + fmt(m.unclamped.current) + ')</span>' : ''}<br>${fmt(m.gain.proposed)}${m.gain.proposed !== m.unclamped.proposed ? ' <span class="clampnote">clamped (' + fmt(m.unclamped.proposed) + ')</span>' : ''}</td>
+      <td class="num">${fmt(m.gain.current)}<br>${fmt(m.gain.proposed)}</td>
       <td><div class="bar" data-i="${i}"></div></td>
       <td class="num heard"></td>`;
     tbody.appendChild(tr);
